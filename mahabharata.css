@@ -1,0 +1,845 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+   
+}
+h4::selection{
+    background-color: #000000;
+    color: white;
+}
+.box_one{
+    width: 100%;
+    height: 7vw;
+    background-color:#271420;
+}
+.logo{
+    width: 20%;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 15vw;
+    height: 5vw;
+}
+.box_links{
+    width: 40%;
+    height: 7vw;
+    margin-left: 20%;
+    margin-top: -7vw;
+    display: flex;align-items: center;
+}
+.box_links li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+.box_links li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+.three_button_links{
+    width: 20%;
+    height: 7vw;
+    margin-left: 60%;
+    margin-top: -7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three_button_links button {
+width: 3vw;height: 3vw;
+border-radius: 50%;
+border: none;
+outline: none;
+margin-left: 12px;
+transition: 3s;
+border-width: 0px;
+background-size: 0px;
+}
+.three_button_links button:hover{
+    border-width: 100%;
+
+    color: white;
+    background-size: 100%;
+}
+.three_button_links button a{
+    text-decoration: none;
+    color: #271420;
+    font-size: 19px;
+}
+.Available_now{
+    width: 20%;
+    height: 7vw;
+    margin-left: 80%;
+    margin-top: -7vw;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+
+.Available_now button a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.Available_now button{
+    background-color: transparent;
+   outline: none;
+   border: solid 1px white;
+   width:15vw;
+   height: 3vw;
+}
+.full_video_content_with_box{
+    width: 100%;
+    height: 40vw;
+
+}
+.full_video_content_with_box video{
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    
+}
+.full_video_content_with_box_second {
+    width: 100%;
+     height: 40vw;
+     background-color: #00000070;
+     position: absolute;
+     top: 7vw;
+}
+.logo_lo_one{
+width: 100%;
+height: 10vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#website_heading{
+width: 100%;height: 15vw;
+font-size: 6vw;
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif ,monospace;
+}
+#website_paragraph{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+   font-stretch: 120px;
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
+#website_animation_button{
+    width: 100%;
+    height: 4.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#website_animation_button img{
+    width: 2vw;
+    height: 2vw;
+    animation: jump 1s ease-in infinite ;
+    transform: rotate(-180deg);
+}
+
+.two_background_with_text{
+    width: 100%;
+    height: 40vw;
+   background-color: #391837;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+}
+#website_animation_button a{
+    scroll-behavior: smooth;
+}
+@keyframes jump{
+    0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: -50px;
+    }
+}
+
+.first_img_background{
+    width: 100%;
+    height: 40vw;
+    transform: skew(-20deg);
+    background-image: url(https://thumb.tildacdn.com/tild3263-3365-4034-a231-326534383039/-/format/webp/Beyond_Nirvana_show.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second_text_background{
+    width: 100%;
+    height: 40vw;
+    background-color:#391837 ;
+    transform: skew(-20deg);
+}
+.first_heading_box{
+    width:80%;
+    height:20vw;
+    transform:skew(20deg);
+    margin-left: 10%;
+}
+.first_heading_box h1{
+    width: 90%;
+    color: white;
+    transform: skew(0deg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
+   font-size: 45px;
+}
+.second_heading_box{
+    width: 90%;
+    height: 10vw;
+transform: skew(20deg);
+
+    margin-left:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_heading_box p{
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.vip_access{
+    width: 80%;
+    height: 10vw;
+   
+    transform:skew(20deg);
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.vip_access button{
+    width: 15vw;
+    height: 5vw;
+    transform: skew(0deg);
+    border: none;
+    outline: none;
+    background-color: #0037ff;
+    cursor: pointer;
+}
+.vip_access  a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.third_box_with_grid{
+    width: 100%;
+    height: 50vw;
+    background-image: url(https://thumb.tildacdn.com/tild3231-6663-4738-a562-396234356132/-/format/webp/workfile_16piece_pre.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box_with_overleap{
+    width: 100%;
+    height: 50vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.436);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first_box_overleap{
+    width: 100%;
+    height: 50vw;
+}
+.second_box_overleap{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third_box_overleap{
+ width: 100%;
+ height: 40vw;
+ display:none;
+ align-items: center;
+ justify-content: center;
+}
+.third_box_overleap img{
+    width: 70vw;
+    height: 60vw;
+}
+.first_koo_heading{
+    width: 100%;
+    height: 20vw;
+}
+.first_koo_heading h1{
+    width: 70%;
+    height: 20vw;
+    color: white;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+.first_koo_paragraph{
+    width: 100%;
+    height: 15vw;
+    display: flex;align-items: center;justify-content: center;
+}
+.first_koo_paragraph p{
+    color: rgb(177, 175, 175);
+    font-size: 23px;
+    width: 65%;
+   font-family: sans-serif;
+}
+.second_koo_paragraph{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_koo_paragraph p{
+    font-size: 20px;
+    color: rgb(177, 175, 175);
+    margin-left: 10%;
+    font-family:sans-serif;
+    
+}
+
+.download_two_button{
+    width: 100%;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#first{
+    width: 15vw;
+    height: 4vw;
+}
+#second{
+    width: 15vw;
+    height: 6vw;
+  
+    margin-left: 10px;
+}
+.text_with_background_img{
+    width: 100%;
+    height: 50vw;
+    background-color: #271420;
+}
+.text_with_background_img video{
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+    
+}
+
+.ove_text{
+    width: 100%;
+    height: 50vw;
+    position: absolute;
+    top: 137vw;
+    background-color: #000000a2;
+}
+.end_era{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+
+}
+.end_era h1{
+    font-size: 4em;
+   /* background-image: url(The\ Unfortunate\ Ending\,\ Sunny\ Nair.jpeg);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-position: center;
+   background-size: cover; */
+
+   
+    color: rgba(255, 255, 255, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    
+}
+.full_big_yodha_images{
+    width: 100%;
+    height: 30vw;
+  
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.full_big_yodha_images {
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+      justify-content: center;
+    
+}
+.form_fill{
+    width: 40vw;
+    height: 30vw;
+
+}
+.first_personal{
+    width: 100%;
+    height: 5vw;
+}
+.first_personal h3{
+    width: 100%;
+    height: 6vw;
+  
+}
+.full_big_yodha_images img{
+height: 25vw;
+}
+.shiva_text_wallpaper{
+    width: 100%;
+    height: 50vw;
+    background-image: url(photo-collage.png.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.shiva_text_wallpaper h5{
+ width: 100%;
+ height: 17vw;
+ display: flex;
+ align-items: end;
+ justify-content: center;
+ font-size: 4em;
+ color: white;
+ font-family: sans-serif;
+ color: #ffe100;
+}
+.shiva_text_wallpaper p{
+    width: 70%;
+    height: 15vw;
+    background-color:one_button_arrivel;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 2em;
+  color: #00ff2f;
+  text-align: center;
+margin-left: 15%;
+margin-right: 15%;
+font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.one_button_arrivel{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one_button_arrivel button{
+    width: 30vw;
+    height: 6vw;
+    background-color: #ffe100;
+    border-radius: 45px;
+    border: none;
+}
+.one_button_arrivel button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.return_two_grid_in_one_frame{
+    width: 100%;
+    height: 35vw;
+    background-color: #271420;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow: hidden;
+}
+.one_strik_part{
+    width: 100%;
+    height: 35vw;
+    transform: skew(-25deg);
+  background-color: #271420;
+}
+.second_strik_part{
+    width: 100%;
+    height: 35vw;
+    transform: skew(-25deg);
+    background-color: #271420;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_strik_part img{
+    width: 60vw;
+    height: 105vw;
+    transform: skew(2deg);
+    overflow: hidden;
+    
+}
+.one_strik_part h5{
+    transform: skew(25deg);
+    width: 90%;
+    height: 15vw;
+
+    font-size: 3em;
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    color: white;
+}
+.one_strik_part p{
+   width: 90%;
+   height: 10vw;
+
+   transform: skew(25deg);
+   display: flex;align-items: center;
+   margin-left: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: white;
+}
+.button_butto{
+    width: 90%;
+    height: 6vw;
+
+    margin-left: 10%;
+    transform: skew(25deg);
+}
+.button_butto button{
+    margin-left: 4vw;
+    margin-top: 1vw;
+    width: 7vw;
+    height: 4vw;
+    border: none;
+    background-color: #0037ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.only_heading_point{
+    width: 100%;
+    height: 30vw;
+    background-color: #271420;
+}
+.only_heading_point p{
+    width: 100%;
+    height: 10vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.only_heading_point h1{
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+
+}
+.only_heading_point h6{
+    width: 100%;
+    height: 10vw;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 10;
+}
+.gallery_photos{
+    width: 100%;
+    height: 70vw;
+    background-color: #271420;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+   overflow-y: scroll;
+
+}
+.gallery_photos::-webkit-scrollbar{
+    width: 2vw;
+}
+.first_photo{
+    width:45vw;
+    margin-left: 37px;
+    height: 28vw;
+   margin-top: 14px;
+
+
+}
+.first_photo img{
+    width: 100%;
+    height: 23vw;
+}
+.img_counter{
+    width: 100%;
+    height: 23vw;
+
+}
+.first_photo h6 {
+width: 100%;
+height: 4vw;
+margin-top: 6px;
+}
+.first_photo h6 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10vw;
+    margin-left: 3vw;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form_container{
+    width: 100%;
+    height: 50vw;
+    background-color: #271420;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_all_in_one{
+    width: 45vw;
+    height: 45vw;
+ border: solid 1px white;
+}
+.heading_us{
+    width: 100%;
+    height: 10vw;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading_us h2{
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+.form_all_in_one p{
+  width: 100%;
+  height: 5vw;
+  display: flex;
+
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 100;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.input_box_timt{
+    width: 100%;
+    height: 30vw;
+
+}
+.input_one{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_one input{
+    width: 80%;
+    height: 4vw;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+    outline: none;
+}
+.input_one input::placeholder{
+    font-size: 20px;
+}
+.input_second{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.input_second input{
+    width: 80%;
+    height: 4vw;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 24px;
+    text-transform: lowercase;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+    outline: none;
+}
+.input_second input::placeholder{
+    text-transform: lowercase;
+    font-size: 20px;
+}
+.input_third{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_third textarea{
+    width: 80%;
+    height: 4vw;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 24px;
+    text-transform: lowercase;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input_third textarea::placeholder  {
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: sans-serif;
+ 
+}
+.input_fourth{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.input_fourth input{
+    width: 17vw;
+    height: 4vw;
+    font-size: 20px;
+    border-radius: 35px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.logo_with_end{
+    width: 100%;
+    height: 25vw;
+    background-color: #271420;
+  
+}
+.end_logo{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_with_end p{
+    width: 100%;
+    height: 3vw;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.requred_box{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50vw;
+    background-color: red;
+}
+.logo_bond{
+    height: 15vw;
+    width: 100%;
+    background-color: #070707;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_bond img{
+    width: auto;
+    height: auto;
+}
+.land_view{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    border: solid 1px;
+}
+.land_view iframe{
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+}
+.requirement_box{
+    width: 60%;
+    height: 30vw;
+    margin-left: 25vw;
+    margin-top: -25vw;
+    border: solid 1px greenyellow;
+   
+}
+.family_tree{
+    width: 100%;
+    height: 50vw;
+
+}
+.family_tree img{
+    width: 100%;
+    height: 50vw;
+}
+.logo_with_end span{
+    width: 3vw;
+    height: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#room {
+    background-color: #000000;
+}
